@@ -3,3 +3,5 @@
 (check (= (- 1 2) -1))
 (check (< 1 2))
 (check (> 1 -2))
+
+(check (= (+ (to-str 1) "swagleon") "1swagleon"))
